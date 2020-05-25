@@ -184,4 +184,6 @@ module.exports = {
     '^@config/(.*)$': '<rootDir>/src/config/$1',
     '^@shared/(.*)$': '<rootDir>/src/shared/$1',
   },
+
+  testTimeout: 20000,
 };
